@@ -3291,7 +3291,7 @@ class _AlhaHomeShellState extends State<AlhaHomeShell> {
   Widget _buildSpatialDock() {
     final items = [
       {'icon': Icons.space_dashboard_rounded, 'label': 'العمليات', 'badge': c.openTrades.length},
-      {'icon': Icons.monitoring_rounded, 'label': 'الأداء', 'badge': c.closedLog.length},
+      {'icon': Icons.analytics_rounded, 'label': 'الأداء', 'badge': c.closedLog.length},
       {'icon': Icons.calculate_rounded, 'label': 'الحاسبة', 'badge': 0},
       {'icon': Icons.tune_rounded, 'label': 'الإعدادات', 'badge': 0},
     ];
