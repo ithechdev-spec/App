@@ -1,0 +1,24 @@
+name: alha_bot
+description: "ALHA — بوت العرض والطلب الصافي (Supply & Demand · Price Action) لتداول بايننس سبوت"
+publish_to: 'none'
+version: 2.1.0+21
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.2.2
+  crypto: ^3.0.6
+  shared_preferences: ^2.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
